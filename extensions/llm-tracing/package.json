@@ -1,0 +1,18 @@
+{
+    "name": "@moltbot/llm-tracing",
+    "version": "2026.1.27-beta.1",
+    "type": "module",
+    "description": "LLM content tracing for Langfuse and OpenTelemetry-compatible platforms",
+    "moltbot": {
+        "extensions": [
+            "./index.ts"
+        ]
+    },
+    "dependencies": {
+        "@opentelemetry/api": "^1.9.0",
+        "@opentelemetry/exporter-trace-otlp-http": "^0.211.0",
+        "@opentelemetry/resources": "^2.5.0",
+        "@opentelemetry/sdk-trace-base": "^2.5.0",
+        "@opentelemetry/semantic-conventions": "^1.39.0"
+    }
+}
